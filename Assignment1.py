@@ -27,6 +27,37 @@ petrol=97.48
 cost=int(distance*petrol)
 print(cost)
 
+# Syntax Error(compile time error)
+# print("hello"
+
+# Indentation Error
+    # print(" indentation error")
+
+#runtime error
+# a=10
+# b=0
+# print(a/b)
+      
+
+
+# WAP to show escape sequences.
+
+#new line \n
+print("new \n line ")
+#tab \t
+print("Tab\ttab")
+#Backslash \\
+print("hello\\backslash is here")
+#SIngle quotation
+print("Hello \' world")
+#Double quote
+print("\"Hello, world!\"")
+#backspace
+print("hello\b")
+
+
+
+
 
 # print all keywords
 import keyword
