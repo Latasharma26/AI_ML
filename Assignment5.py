@@ -1,5 +1,5 @@
 # 1. WAP TO PRINT A TABLE OF A NUMBER
-num=5
+num=8
 for i in range(1, 11):
     print(num , " * " , i , " = " , num * i)
 # 2. WAP TO TAKE INPUT FROM USER AND PRINT THE TABLE OF A NUMBER.
@@ -26,7 +26,7 @@ sum = n * n
 print("The sum of the first 10 odd numbers is:", sum)
 
 # 7. FIND THE SUM OF ALL ELEMENTS OF A LIST.
-numbers = [1, 2, 3, 4, 5]  
+numbers = [10, 20, 30, 40, 50]  
 sum=0
 for num in numbers:
     sum = sum+num
@@ -44,14 +44,14 @@ else:
 print("The total number of digits in the number is:", count)
 
 # 9.PROGRAM TO SHOW ALL THE ELEMENTS OF A LIST.
-list = [10, 20, 30, 40, 50]
+list = [1, 2, 3, 4, 5]
 print("The elements of the list are:")
 for element in list:
     print(element)
 
 # 10.Python program to count the number of even and odd numbers from a
 # list.
-list = [10, 23, 44, 55, 62, 73, 84]
+list = [10, 20, 30, 53, 22, 72, 99]
 even = 0
 odd = 0
 for number in list:
